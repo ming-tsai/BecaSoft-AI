@@ -136,7 +136,13 @@ Un agente actúa de manera inteligente cuando:
 - 1995 The emergence of intelligent agents
 
 
-## Referencia
+## Referencias
 [Artificial
 Intelligence
 Foundations of Computational Agents](https://artint.info/html/ArtInt.html)
+
+[AI by Ing. Retnato Gonzale part 1](data/1.pdf)
+
+[AI by Ing. Retnato Gonzale part 2](data/2.pdf)
+
+[AI by Ing. Retnato Gonzale part 3](data/3.pdf)
