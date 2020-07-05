@@ -1,4 +1,4 @@
-# ai-becasoft
+# BecaSoft-AI
 # Categoria de Lenguaje
 - Comunicacion
 - Musica
