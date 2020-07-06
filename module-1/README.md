@@ -2,6 +2,9 @@
 
 Este es el nota del primer modulo, gracias a [Ing. Retnato Gonzale](https://do.linkedin.com/in/renato-r-gonz%C3%A1lez-disla-70423b14/es-es)
 
+
+![alt text](data/data-science.png "AI panorama general")
+
 # Objetivo
 
 - La inteligencia artificial (IA) es un gran campo que abarca lógica,
@@ -13,6 +16,54 @@ inteligente de los humanos mediante algoritmos de máquinas, así
 como comprender su evolución y el estado actual de la disciplina.
 
 # Tabla de contenido
+- [Introducción a la Inteligencia Artificial](#introducci-n-a-la-inteligencia-artificial)
+- [Objetivo](#objetivo)
+- [Tabla de contenido](#tabla-de-contenido)
+- [Herramientas de software usadas en AI](#herramientas-de-software-usadas-en-ai)
+- [Introducción](#introducci-n)
+  * [Funciones vitales de los seres vivos](#funciones-vitales-de-los-seres-vivos)
+    + [Relación o Interacción biológica](#relaci-n-o-interacci-n-biol-gica)
+    + [Efectores](#efectores)
+  * [¿Qué es la inteligencia?](#-qu--es-la-inteligencia-)
+  * [¿Qué es aprendizaje?](#-qu--es-aprendizaje-)
+  * [Dato, Información y Conocimiento](#dato--informaci-n-y-conocimiento)
+- [Interigencia Artificial](#interigencia-artificial)
+  * [Definición](#definici-n)
+  * [Agente Inteligente](#agente-inteligente)
+  * [Prehistoria](#prehistoria)
+  * [Historia abreviada](#historia-abreviada)
+- [Solución de Problemas y Espacios de Estado](#soluci-n-de-problemas-y-espacios-de-estado)
+  * [¿En qué consiste un problema de espacio de estado?](#-en-qu--consiste-un-problema-de-espacio-de-estado-)
+- [Algoritmos de búsqueda de grafos](#algoritmos-de-b-squeda-de-grafos)
+  * [Algoritmos de Recorridos](#algoritmos-de-recorridos)
+  * [Algoritmo de Búsqueda Genérico](#algoritmo-de-b-squeda-gen-rico)
+  * [Estrategia de Búsqueda No-Informada](#estrategia-de-b-squeda-no-informada)
+    + [Breadth First Search](#breadth-first-search)
+    + [Depth First Search](#depth-first-search)
+- [Componentes de Inteligencia Artificial](#componentes-de-inteligencia-artificial)
+  * [Ciencias Cognitivas](#ciencias-cognitivas)
+  * [Modelo Cognitivo](#modelo-cognitivo)
+    + [Componetes de Modelo Cognitivo](#componetes-de-modelo-cognitivo)
+      - [Percepción](#percepci-n)
+      - [Atención](#atenci-n)
+      - [Memoria](#memoria)
+      - [Lenguaje](#lenguaje)
+      - [Acción](#acci-n)
+      - [Planeamiento](#planeamiento)
+      - [Aprendizaje](#aprendizaje)
+- [Representación del Conocimiento y Razonamiento](#representaci-n-del-conocimiento-y-razonamiento)
+  * [Ontología](#ontolog-a)
+  * [Redes Semánticas](#redes-sem-nticas)
+- [Machine Learning](#machine-learning)
+  * [Reconocimiento de patrones (Pattern Recognition)](#reconocimiento-de-patrones--pattern-recognition-)
+  * [Objetivo](#objetivo-1)
+  * [Tipos de Algoritmos de Aprendizaje](#tipos-de-algoritmos-de-aprendizaje)
+    + [Aprendizaje Supervisado](#aprendizaje-supervisado)
+    + [No Supervisados](#no-supervisados)
+    + [Reforzamiento](#reforzamiento)
+- [Etapas de AI (Stages of AI)](#etapas-de-ai-stages-of-ai)
+- [Alcance (Scope)](#alcance-scope-)
+- [Referencias](#referencias)
 
 # Herramientas de software usadas en AI
 - Python
@@ -322,6 +373,91 @@ La `Ontología` ayuda a representar el conocimiento sobre el entorno, los objeto
 - De mucha utilidad en el procesamiento de lenguajes naturales (NLP).
 
 ![alt text](data/semantic-networks.png "Redes Semánticas")
+
+# Machine Learning
+- El principio del `aprendizaje automático` es que, en lugar de tener que aprender a hacer todo paso a paso, las máquinas pueden aprender a trabajar y mejorar observando, clasificando y fallando, al igual que los humanos.
+- El `machine learning` es un método de análisis de datos que automatiza la construcción de modelos analíticos.
+- Es una rama de la `inteligencia artificial` basada en la idea de que los sistemas pueden aprender de datos, identificar patrones y tomar decisiones con mínima intervención humana.
+> Aprendizaje basado en Teoría Estadística del Aprendizaje.
+
+![alt text](data/ai-timeline.png "AI Cronograma")
+
+## Reconocimiento de patrones (Pattern Recognition)
+- Es una regularidad en la naturaleza, en el diseño hecho por el hombre o en las ideas abstractas.
+- Como tal, los elementos de un `patrón` se repiten de **manera predecible**.
+> Ejemplo: Un `patrón geométrico` es un tipo de patrón formado por formas geométricas y, por lo general, se repite como un diseño tapiz.
+- El reconocimiento de patrones es el reconocimiento automático de patrones y regularidades en los datos.
+- El campo del reconocimiento de patrones tiene que ver con el descubrimiento automático de regularidades en los datos mediante el uso de algoritmos informáticos y con el uso de estas regularidades para realizar acciones como clasificar los datos en diferentes categorías.
+- La inteligencia artificial y el aprendizaje automático, junto con aplicaciones como la minería de datos y el descubrimiento de conocimiento en bases de datos (KDD), y a menudo se usan indistintamente con estos términos.
+- Los patrones emergen de los datos de una población cuando incrementamos el tamaño de la muestra en relación a ciertos atributos (Ley de los Grandes Números).
+- Presentan cierta regularidad.
+> Ejemplo: la edad y la
+estatura se comportan
+como una función normal
+(Gauss).
+
+- Los objetos de cada clase responden a una distribución de frecuencia o de probabilidad que poseen cada una sus propiedades características:
+  * Promedios
+  * Modas
+  * Varienza
+  * Etc
+
+## Objetivo
+Es diseñar y construir maquinas que puedan reconocer patrones de señales de la realidad circundante
+Ejemplos:
+- Reconocimiento de voz (Speech recognition)
+- Identificación de huellas digitales (Fingerprint identification)
+- Reconocimiento óptico de caracteres OCR (Optical Character Recognition)
+- Identificación de secuencias de ADN.
+- Estructuras Dinámicas Caóticas(Fractales)
+
+## Tipos de Algoritmos de Aprendizaje
+![alt text](data/types-of-algorithms-learning.png "AI Cronograma")
+
+Los algoritmos se clasifican en tres tipos:
+- Supervisado
+- No-Supervisado
+- Por reforzamiento
+
+![alt text](data/types-of-algorithms-learning-1.png "AI Cronograma")
+
+### Aprendizaje Supervisado 
+Es una técnica para deducir una función de clasificación de objetos a partir de datos de entrenamiento.
+- El `objetivo` es el de crear una función capaz de predecir el valor correspondiente a cualquier objeto de entrada.
+- Los `datos de entrenamiento` consisten de pares de objetos (normalmente vectores): una componente del par son los datos de entrada y el otro, los resultados deseados.
+- La `salida de la función` puede ser un valor numérico (como en los problemas de regresión) o una etiqueta de clase (como en los de clasificación).
+
+![alt text](data/supervised-learning.png "Aprendizaje Supervisado")
+
+> Enfoques: 
+> - Basado en modelos de regresión (LR, Cox, GLM, etc.)
+> - Basado en clasificadores con discriminantes lineales o no lineales (SVM, Neural Network, etc.)
+> - Basado en reglas asociativas predictivas y en arboles de decisión (CHAID, C5, Bayes, etc.).
+
+### No Supervisados
+Los algoritmos de Aprendizaje no Supervisados infieren patrones de un conjunto de datos sin referencia a resultados conocidos o etiquetados.
+Los algoritmos mas famosos son:
+- K-Medias
+- Clusterización Jerárquica
+- Density Based Scan Clustering (DBSCAN)
+- Modelo de Agrupamiento Gaussiano
+
+![alt text](data/unsupervised-learning.png "Aprendizaje No Supervisado")
+
+### Reforzamiento
+El aprendizaje por refuerzo es una área de la inteligencia artificial que esta centrada en descubrir que acciones se debe tomar para maximizar la señal de recompensa, en otras palabras se centra en como mapear situaciones a acciones que se centren en encontrar dicha recompensa.
+
+> Al agente no se le dice que acciones tomar, si no al contrario el debe experimentar para encontrar que acciones lo llevan a una mayor recompensa, los casos mas desafiantes son los que no llevan a una recompensa inmediata si no en la siguientes situaciones.
+
+![alt text](data/reinforcement-learning.png "Aprendizaje Por Reforzamiento")
+
+# Etapas de AI (Stages of AI)
+La primera etapa está limitada a una solo área funcional, en la segunda etapa, la IA debería poder combinar diferentes áreas estrechas para realizar tareas en un nivel de habilidad humana.
+
+![alt text](data/stages-of-ai.png "Aprendizaje Por Reforzamiento")
+
+# Alcance (Scope)
+El alcance de la `Inteligencia Artificial` es mucho más amplio e incluye tecnologías como el procesamiento del lenguaje natural, el aprendizaje automático, el aprendizaje simbólico, el robot y muchos otros.
 
 # Referencias
 [Artificial
