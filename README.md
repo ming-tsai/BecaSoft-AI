@@ -5,4 +5,4 @@
 [Modulo 2](module-2/README.md)
 
 # License
-The content of this repository is licensed under a [Apache License 2.0](./LICENSE)
+The content of this repository is licensed under a [Creative Commons Zero v1.0 Universal](./LICENSE)
