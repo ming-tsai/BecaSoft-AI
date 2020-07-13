@@ -26,5 +26,80 @@ Este es el nota del segundo modulo, gracias a [Ing. Felipe Llaugel](https://do.l
 Para utilizar la función `print` hay que abrir paréntesis y escribir lo que queremos que devuelva el interprete. Si es un texto o cadena se utilizan comillas `("")`.
 
 ```python
+// In
 print("Hello world")
+
+// Out
+Hello world
 ```
+# Enteros, reales y operadores aritméticos
+## Números `Enteros` y `Reales`
+- En python los números enteros son de tipo `int`.
+- En python los números reales son de tipo `float`.
+- Con la función `type()` podemos obtener el tipo de variable.
+
+Ejemplo para `enteros`:
+```python
+// In
+x = 5
+print(x)
+print(type(x))
+
+// Out
+5
+<class int>
+```
+
+Ejemplo para `reales`:
+```python
+// In
+y = 3.8
+print(y)
+print(type(y))
+
+// Out
+3.8
+<class float>
+```
+
+## Operadores Aritméticos
+|Operador|Operación que representa|
+|--------|------------------------|
+|`+`|Suma|
+|`-`|Resta|
+|`*`|Multiplicación|
+|`**`|Exponente|
+|`/`|División|
+|`//`|División Entera|
+|`%`|Módulo|
+
+Ejemplos:
+```python
+// Suma
+x + y
+
+// Resta
+x - y
+
+// Multiplicacion
+x * y
+
+// Divicion
+x / y
+
+// Exponente
+x ** 2
+
+// Divicion entera
+x // y
+
+// Modulo
+x % y
+```
+
+# Booleanos, Operadores Lógicos y Cadenas
+## Cadenas
+- Las cadenas son de tipo string.
+- Para asignar a una variable un texto o cadena se utilizan comillas simples(`' '`) o comillas dobles(`" "`).
+- Para insertar saltos de línea entre las cadenas o textos se pueden usar caracteres de escape o triples comillas.
+
